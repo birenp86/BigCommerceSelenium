@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BigCommerce TakeHome Assignment">
+	<test name="Control Panel -- New Customer">
+		<parameter name="firstName" value="Biren" />
+		<parameter name="lastName" value="Patel" />
+		<parameter name="emailPreFix" value="bigcommerce" />
+		<parameter name="emailPostFix" value="@gmail.com" />
+		<parameter name="password" value="bigcommerce123" />
+		<classes>
+			<class name="com.bigcom.test.ng.NewCustomerSuite" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
